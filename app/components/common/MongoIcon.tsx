@@ -1,4 +1,4 @@
- //@ts-expact-error
+
 import React from 'react'
 
 const MongoIcon = ({height,width}:any) => {

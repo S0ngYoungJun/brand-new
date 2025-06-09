@@ -1,4 +1,4 @@
- //@ts-expact-error
+
 import React from 'react'
 
 const NodeJsIcon = ({height,width}:any) => {
