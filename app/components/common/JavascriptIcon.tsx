@@ -1,6 +1,6 @@
 
 import React from 'react'
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const JavascriptIcon = ({height,width}:any) => {
   return (
     <svg viewBox="0 0 128 128" height={height ?? "24px"} width={width ?? "24px"}>
