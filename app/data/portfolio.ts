@@ -91,7 +91,6 @@ export const projects = [
             '/static/images/project4/1.png',
             '/static/images/project4/2.png',
             '/static/images/project4/3.png',
-            '/static/images/project4/4.png',
         ]
     }
 ]
