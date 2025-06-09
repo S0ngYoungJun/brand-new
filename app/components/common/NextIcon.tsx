@@ -1,3 +1,4 @@
+ //@ts-expact-error
 import React from 'react'
 
 export const NextIcon = ({height,width}:any) => {

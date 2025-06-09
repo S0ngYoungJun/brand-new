@@ -1,3 +1,4 @@
+ //@ts-expact-error
 import React from 'react'
 
 const TSIcon = ({height,width}:any) => {

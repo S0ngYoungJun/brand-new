@@ -1,3 +1,4 @@
+ //@ts-expact-error
 import React from 'react'
 
 const HtmlIcon = ({height,width}:any) => {
