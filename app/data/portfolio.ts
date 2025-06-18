@@ -85,7 +85,7 @@ export const projects = [
     {
         title:"포트폴리오 사이트",
         description:"현재 변경전 기존의 초기 포트폴리오 사이트입니다.",
-        github_link:"",
+        github_link:"https://next-popol-8ysc.vercel.app/",
         tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon,SpringBootIcon,MySQLIcon],
         images:[
             '/static/images/project4/1.png',
