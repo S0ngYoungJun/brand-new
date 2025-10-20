@@ -46,14 +46,14 @@ export const ABOUT_SECTION = {
 
 export const projects = [
     {
-        title:"todolist",
-        description:"간단하게 체크완료기능과 검색기능을 넣은 todolist입니다.  React를 빌드속도를 향상시키기 위해 개발툴로 vite를 사용했습니다. Redux로 상태 관리를 구현했습니다.",
-        github_link:"",
+        title:"e-commerce",
+        description:"간단한 쇼핑몰 사이트",
+        github_link:"https://nextecom-eoaq.vercel.app/",
         tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon],
         images:[
-            '/static/images/project1/1.png',
-            '/static/images/project1/2.png',
-            '/static/images/project1/3.png'
+           '/static/images/project2/1.png',
+            '/static/images/project2/2.png',
+            '/static/images/project2/3.png',
         ]
     },
     {
