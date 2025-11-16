@@ -46,14 +46,14 @@ export const ABOUT_SECTION = {
 
 export const projects = [
     {
-        title:"e-commerce",
-        description:"간단한 쇼핑몰 사이트",
-        github_link:"https://nextecom-eoaq.vercel.app/",
-        tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon],
+        title:"Notion API/DB와 연동하여 개발한 블로그 준비사이트",
+        description:"별도의 데이터베이스 서버 없이 Notion API/DB와 연동하여 개발 현재는 일단 개인 기록용 노션기록, 차후 커뮤니티기능(댓글,좋아요)추가 할 예정",
+        github_link:"https://notion-blog-skhc.vercel.app/",
+        tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon,NodeJsIcon,MongoIcon],
         images:[
-           '/static/images/project2/1.png',
-            '/static/images/project2/2.png',
-            '/static/images/project2/3.png',
+            '/static/images/project3/1.png',
+            '/static/images/project3/2.png',
+            '/static/images/project3/3.png'
         ]
     },
     {
@@ -72,25 +72,24 @@ export const projects = [
         ]
     },
     {
-        title:"Notion API/DB와 연동하여 개발한 블로그 준비사이트",
-        description:"별도의 데이터베이스 서버 없이 Notion API/DB와 연동하여 개발 현재는 일단 개인 기록용 노션기록, 차후 커뮤니티기능(댓글,좋아요)추가 할 예정",
-        github_link:"https://notion-blog-skhc.vercel.app/",
-        tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon,NodeJsIcon,MongoIcon],
+        title:"e-commerce",
+        description:"기존의 팀프로젝트의 E-commerce사이트를 세부기능을 빼고 리뉴얼 했습니다.",
+        github_link:"https://nextecom-eoaq.vercel.app/",
+        tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon],
         images:[
-            '/static/images/project3/1.png',
-            '/static/images/project3/2.png',
-            '/static/images/project3/3.png'
+           '/static/images/project1/1.png',
+            '/static/images/project1/2.png',
+            '/static/images/project1/3.png',
         ]
     },
     {
         title:"관리자 ",
-        description:"관리자 대시보드.",
+        description:"기존의 팀프로젝트의 E-commerce사이트의 관리자페이지를 세부기능을 빼고 리뉴얼 했습니다.",
         github_link:"https://nextboard-neon.vercel.app/dashboard",
         tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon,SpringBootIcon,MySQLIcon],
         images:[
             '/static/images/project4/1.png',
             '/static/images/project4/2.png',
-            '/static/images/project4/3.png',
         ]
     }
 ]
