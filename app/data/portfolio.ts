@@ -1,4 +1,4 @@
-import AndroidIcon from "@/app/components/common/AndroidIcon"
+
 import CSSIcon from "@/app/components/common/CSSIcon"
 import GithubIcon from "@/app/components/common/GithubIcon"
 import HtmlIcon from "@/app/components/common/HtmlIcon"
@@ -57,11 +57,24 @@ export const projects = [
         ]
     },
     {
-        title:"E-commerce 웹사이트(Erp 팀프로젝트)",
-        description:"Next.js를 사용해 만든 커피원두 테마의 웹사이트입니다. 팀프로젝트의 관리자 페이지에서 사용자 페이지에 보여지는 부분을 간편하게 조작할 수 있는점을 중점적으로 보고 제작하였습니다.저는 팀프로젝트에서  상품 슬라이드, 회원가입,로그인, 상품 판매 상세페이지, 마이페이지, 결제 이후 자동연장 구독시스템 부분을 맡았습니다.현재 데이터 베이스 손실로 사이트를 닫았습니다.",
-        github_link:"",
-        tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon,AndroidIcon],
+        title:"대전 버스 api를 연동한 버스 시간체크 사이트",
+        description:"대전시 버스 공공api를 받아 자바로 만든 버스시간 체크 사이트입니다. 현재 로그인후 기능을 추가중입니다.",
+        github_link:"http://223.130.139.214:7030/",
+        tech_stack:[TSIcon,HtmlIcon,CSSIcon],
         images: [
+            '/static/images/project5/1.png',
+            '/static/images/project5/2.png',
+            '/static/images/project5/3.png',
+            '/static/images/project5/4.png',
+            '/static/images/project5/5.png',
+        ]
+    },
+    {
+        title:"e-commerce",
+        description:"Next.js를 사용해 만든 커피원두 테마의 웹사이트입니다. 팀프로젝트의 관리자 페이지에서 사용자 페이지에 보여지는 부분을 간편하게 조작할 수 있는점을 중점적으로 보고 제작하였습니다.저는 팀프로젝트에서  상품 슬라이드, 회원가입,로그인, 상품 판매 상세페이지, 마이페이지, 결제 이후 자동연장 구독시스템 부분을 맡았습니다.현재 데이터 베이스 손실로 사이트를 닫았습니다. 현재는 기존의 팀프로젝트의 E-commerce사이트를 세부기능을 빼고 리뉴얼 했습니다.",
+        github_link:"https://nextecom-eoaq.vercel.app/",
+        tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon],
+        images:[
             '/static/images/project2/1.png',
             '/static/images/project2/2.png',
             '/static/images/project2/3.png',
@@ -69,15 +82,7 @@ export const projects = [
             '/static/images/project2/5.png',
             '/static/images/project2/6.png',
             '/static/images/project2/7.png',
-        ]
-    },
-    {
-        title:"e-commerce",
-        description:"기존의 팀프로젝트의 E-commerce사이트를 세부기능을 빼고 리뉴얼 했습니다.",
-        github_link:"https://nextecom-eoaq.vercel.app/",
-        tech_stack:[ReactIcon,TSIcon,HtmlIcon,CSSIcon],
-        images:[
-           '/static/images/project1/1.png',
+            '/static/images/project1/1.png',
             '/static/images/project1/2.png',
             '/static/images/project1/3.png',
         ]
